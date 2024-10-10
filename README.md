@@ -33,8 +33,8 @@
 - Evidencia: [Evidencia](https://github.com/Papatoncio/creacion-videojuegos/blob/daf628bbb9173b1e834f86a8477e6bdd87f9fac2/Lecciones/Lecci%C3%B3n%202/Capturas%20prototipo%202.pdf)
 
 ## Lección 3
-- Proyecto: [Prototipo 3]()
-- Evidencia: [Evidencia]()
+- Proyecto: [Prototipo 3](https://github.com/Papatoncio/creacion-videojuegos/blob/28795b1af0545297eec1da5674100c814f2c3226/Lecciones/Lecci%C3%B3n%203/Prototipo%203.unitypackage)
+- Evidencia: [Evidencia](https://github.com/Papatoncio/creacion-videojuegos/blob/28795b1af0545297eec1da5674100c814f2c3226/Lecciones/Lecci%C3%B3n%203/Lecci%C3%B3n%203.pdf)
 
 ## Lección 4
 - Proyecto: [Prototipo 4]()
