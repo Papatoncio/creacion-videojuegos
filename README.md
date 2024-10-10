@@ -1,6 +1,6 @@
 # Creación de VideoJuegos
 <p align="center">
-    <img src="https://educahistoria.com/wp-content/uploads/2023/07/damarkuswolf_history_of_videogames_retro_design_cinematographic_fe98c9d8-cb79-49e0-9cd3-c453f44bd755-1080x675.png" alt="Logo" width=1080 height=675>
+    <img src="https://educahistoria.com/wp-content/uploads/2023/07/damarkuswolf_history_of_videogames_retro_design_cinematographic_fe98c9d8-cb79-49e0-9cd3-c453f44bd755-1080x675.png" alt="Logo" width=800 height=500>
 
   <p align="center">
     Repositiorio para materia Creación de Videojuegos.
