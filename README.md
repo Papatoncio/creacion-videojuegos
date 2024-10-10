@@ -8,7 +8,21 @@
 </p>
 
 # Contenido
+- [Introducción](#Introducción)
 - [Código Fuente](#Código-Fuente)
+- [Planificación](#planificación)
+- [Autores](#autores)
+- [Copyright](#copyright)
+
+# Introducción
+- Nombre del proyecto
+- Objetivo.
+- Plataforma ,Género, Clasificación, Personajes, Escenario.
+- Historia
+- Personajes
+- Reglas de Juego.
+- Pantallas de Juego
+- Plan de creación de VideoJuego.
 
 # Código Fuente
 ## Lección 1
@@ -29,3 +43,11 @@
 ## Lección 5
 - Proyecto: [Prototipo 5]()
 - Evidencia: [Evidencia]()
+
+# Planificación
+
+# Autores
+Juan Pablo Jiménez Jaime
+
+# Copyright
+Derechos Reservados 2022
