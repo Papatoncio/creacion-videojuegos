@@ -7,7 +7,6 @@ public class PlayerMovent : MonoBehaviour
     public GameObject bullet;
     public Transform firePoint;
     public GameObject gun;
-    public float bulletSpeed;
     public float moveSpeed = 5f;
 
     private Vector2 movement; // Dirección del movimiento
@@ -80,6 +79,7 @@ public class PlayerMovent : MonoBehaviour
         firePoint.rotation = Quaternion.Euler(0, 0, lookAngle);
         Vector3 gunRotation = gun.transform.localEulerAngles;
         gunRotation.z = lookAngle * -1;
+        if (!facingRight) gunRotation.y = 180f; else gunRotation.y = 0;
         gun.transform.localEulerAngles = gunRotation;
     }
 
@@ -88,10 +88,12 @@ public class PlayerMovent : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject bulletClone = Instantiate(bullet);
-            bulletClone.transform.position = firePoint.position;
-            bulletClone.transform.rotation = Quaternion.Euler(0, 0, lookAngle);
+            PlayerBulletMovement bulletScript = bulletClone.GetComponent<PlayerBulletMovement>();
 
-            bulletClone.GetComponent<Rigidbody2D>().velocity = firePoint.right * bulletSpeed;
+            if (bulletScript != null)
+            {
+                bulletScript.ShotBullet(firePoint, lookAngle);
+            }
         }
     }
 }

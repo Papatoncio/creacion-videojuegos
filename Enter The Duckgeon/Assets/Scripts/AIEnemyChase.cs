@@ -6,11 +6,10 @@ using UnityEngine.Events;
 
 public class AIEnemyChase : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public GameObject bullet;
     public Transform firePoint;
     public GameObject gun;
-    public float bulletSpeed;
     public float speed;
     public float distanceBetween;
     public float attackDistance;
@@ -26,6 +25,7 @@ public class AIEnemyChase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         animator = GetComponent<Animator>();
     }
 
@@ -37,34 +37,37 @@ public class AIEnemyChase : MonoBehaviour
 
     void MoveAndAttack()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
-
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-        RotateFirePoint();
-
-        if (distance <= distanceBetween)
+        if (player != null)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
-            FlipSprite(angle);
+            distance = Vector2.Distance(transform.position, player.transform.position);
+            Vector2 direction = player.transform.position - transform.position;
+            direction.Normalize();
 
-            if (distance <= attackDistance)
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            RotateFirePoint();
+
+            if (distance <= distanceBetween)
             {
-                if (passedTime >= attackDelay)
-                {                    
-                    ShotBullet();
-                    passedTime = 0;
+                transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+                FlipSprite(angle);
+
+                if (distance <= attackDistance)
+                {
+                    if (passedTime >= attackDelay)
+                    {
+                        ShotBullet();
+                        passedTime = 0;
+                    }
                 }
             }
-        }
 
-        animator.SetBool("IsMoving", distance <= distanceBetween);        
+            animator.SetBool("IsMoving", distance <= distanceBetween);
 
-        if (passedTime < attackDelay)
-        {            
-            passedTime += Time.deltaTime;
+            if (passedTime < attackDelay)
+            {
+                passedTime += Time.deltaTime;
+            }
         }
     }
 
@@ -101,15 +104,18 @@ public class AIEnemyChase : MonoBehaviour
         firePoint.rotation = Quaternion.Euler(0, 0, lookAngle);
         Vector3 gunRotation = gun.transform.localEulerAngles;
         gunRotation.z = lookAngle * -1;
+        if (!facingRight) gunRotation.y = 180f; else gunRotation.y = 0;
         gun.transform.localEulerAngles = gunRotation;
     }
 
     void ShotBullet()
     {
         GameObject bulletClone = Instantiate(bullet);
-        bulletClone.transform.position = firePoint.position;
-        bulletClone.transform.rotation = Quaternion.Euler(0, 0, lookAngle);
+        EnemyBulletMovement bulletScript = bulletClone.GetComponent<EnemyBulletMovement>();
 
-        bulletClone.GetComponent<Rigidbody2D>().velocity = firePoint.right * bulletSpeed;
+        if (bulletScript != null)
+        {
+            bulletScript.ShotBullet(firePoint, lookAngle);
+        }
     }
 }

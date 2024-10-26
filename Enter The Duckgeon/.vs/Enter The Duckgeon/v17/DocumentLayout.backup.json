@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\",
+  "WorkspaceRootPath": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\enter the duckgeon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\enter the duckgeon\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\enter the duckgeon\\assets\\scripts\\aienemychase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\aienemychase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aienemychase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\assets\\scripts\\playermovent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\playermovent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +30,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T07:20:11.057Z",
+              "WhenOpened": "2024-10-25T23:10:28.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAAAcAAACAJTMzMzP5vyEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T07:20:11.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAMDMzMzPzv2kAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T07:16:19.302Z",
               "EditorCaption": ""
@@ -58,23 +74,23 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlayerMovent.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\PlayerMovent.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerMovent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovent.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\PlayerMovent.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerMovent.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovent.cs",
-              "ViewState": "AgIAAEgAAADA//////8nwFIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAyMzMzMz8v18AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T07:46:38.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AIEnemyChase.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\AIEnemyChase.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\AIEnemyChase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AIEnemyChase.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\Enter The Duckgeon\\Assets\\Scripts\\AIEnemyChase.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\AIEnemyChase.cs",
               "RelativeToolTip": "Assets\\Scripts\\AIEnemyChase.cs",
-              "ViewState": "AgIAACQAAAAAYmZmZiYswEEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T07:36:29.589Z",
               "EditorCaption": ""

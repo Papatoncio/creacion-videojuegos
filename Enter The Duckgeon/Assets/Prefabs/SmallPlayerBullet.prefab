@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 155168823421900512}
   - component: {fileID: 4791462676631515891}
-  - component: {fileID: 3719815110766592167}
   - component: {fileID: 3754182184628607700}
   - component: {fileID: 4086219010303119235}
   - component: {fileID: -2873897624748314088}
+  - component: {fileID: 1542472558100402325}
   m_Layer: 0
   m_Name: SmallPlayerBullet
   m_TagString: SmallPlayerBullet
@@ -88,18 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3719815110766592167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2404189750097757442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdbb7f7544058a6429e712d8e8b00f70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &3754182184628607700
 Animator:
   serializedVersion: 5
@@ -183,3 +171,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1542472558100402325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404189750097757442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbb7f7544058a6429e712d8e8b00f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpeed: 15
+  liveTime: 5
+  passedTime: 0

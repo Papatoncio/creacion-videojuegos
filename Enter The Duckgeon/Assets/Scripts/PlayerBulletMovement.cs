@@ -4,15 +4,48 @@ using UnityEngine;
 
 public class PlayerBulletMovement : MonoBehaviour
 {
+    public float bulletSpeed;
+    public float liveTime;
+    public float passedTime;
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        CheckBulletLiveTime();
+    }
+
+    public void ShotBullet(Transform firePoint, float lookAngle)
+    {
+        transform.position = firePoint.position;
+        transform.rotation = Quaternion.Euler(0, 0, lookAngle);
+
+        transform.GetComponent<Rigidbody2D>().velocity = firePoint.right * bulletSpeed;
+    }
+
+    void CheckBulletLiveTime()
+    {
+        if (passedTime >= liveTime)
+        {
+            DestroyBullet();
+            passedTime = 0;
+        }
+
+        if (passedTime < liveTime)
+        {
+            passedTime += Time.deltaTime;
+        }
+    }
+
+    void DestroyBullet()
+    {
+        if (gameObject != null)
+        {
+            Destroy(gameObject);
+        }
     }
 }
