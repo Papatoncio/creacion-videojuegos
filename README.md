@@ -45,8 +45,10 @@
 - Evidencia Parte 4: [Evidencia Parte 4](https://github.com/Papatoncio/creacion-videojuegos/blob/7d6254ec76b4d5a44e15900ec9b79c05346b12e5/Prototipos/Prototipo%204/Prototipo%204%20Parte%204.pdf)
 
 ## Lección 5
-- Proyecto: [Prototipo 5]()
-- Evidencia: [Evidencia]()
+- Proyecto Parte 5: [Prototipo 5 Parte 5]()
+- Evidencia Parte 5: [Evidencia Parte 5]()
+- Proyecto Parte 6: [Prototipo 5 Parte 6]()
+- Evidencia Parte 6: [Evidencia Parte 6]()
 
 # Planificación
 
