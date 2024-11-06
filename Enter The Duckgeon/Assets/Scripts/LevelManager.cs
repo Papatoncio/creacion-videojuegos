@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -19,6 +20,19 @@ public class LevelManager : MonoBehaviour
         if (_ui != null)
         {
             _ui.ToggleDeathPanel();
+            Time.timeScale = 0;
         }
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadSceneAsync(0);
+        Time.timeScale = 1;
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
 }
