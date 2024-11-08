@@ -14,7 +14,49 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHeart;
     public int smallDamage;
     public int largeDamage;
-    public AudioSource deathSound;
+    public float cokeEffect;
+
+    private AudioSource deathSound;
+    private PlayerMovent movementScript;
+
+    void Start()
+    {
+        hearts = new Image[10];
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            // Buscar el GameObject por nombre
+            string heartName = "Heart" + i; // Construye el nombre dinámicamente
+            GameObject heartObject = GameObject.Find(heartName);
+
+            if (heartObject != null)
+            {
+                // Obtener el componente Image y agregarlo al array
+                Image heartImage = heartObject.GetComponent<Image>();
+
+                if (heartImage != null)
+                {
+                    hearts[i] = heartImage;
+                }
+                else
+                {
+                }
+            }
+            else
+            {
+            }
+        }
+
+        if (deathSound == null)
+        {
+            deathSound = GameObject.Find("DeathShot").GetComponent<AudioSource>();
+        }
+
+        if (movementScript == null)
+        {
+            movementScript = gameObject.GetComponent<PlayerMovent>();
+        }
+    }
 
     void Update()
     {
@@ -39,6 +81,15 @@ public class PlayerHealth : MonoBehaviour
             numOfHearts++;
             health = numOfHearts; // Restaura la vida al máximo
             Destroy(other.gameObject); // Destruye la Golden Apple
+        }
+
+        // Detecta si colisiona con una "Coke"
+        else if (other.gameObject.CompareTag("Coke"))
+        {
+            // Reduce el cooldown de los disparos
+            movementScript.attackDelay -= cokeEffect;
+            movementScript.attackDelay = Mathf.Max(0, movementScript.attackDelay); // Asegura que attackDelay no sea negativo
+            Destroy(other.gameObject); // Destruye la bala
         }
 
         // Detecta si colisiona con una "LargeEnemyBullet"

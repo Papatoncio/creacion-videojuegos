@@ -7,7 +7,9 @@ public class PlayerMovent : MonoBehaviour
     public GameObject bullet;
     public Transform firePoint;
     public GameObject gun;
-    public float moveSpeed = 5f;
+    public float moveSpeed;
+    public float attackDelay;
+    public float passedTime;
 
     private Vector2 movement; // Dirección del movimiento
     private Rigidbody2D rb; // Referencia al Rigidbody2D
@@ -38,6 +40,11 @@ public class PlayerMovent : MonoBehaviour
         RotateFirePoint();
 
         ShotBullet();
+
+        if (passedTime < attackDelay)
+        {
+            passedTime += Time.deltaTime;
+        }
     }
 
     void FixedUpdate()
@@ -87,13 +94,17 @@ public class PlayerMovent : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject bulletClone = Instantiate(bullet);
-            PlayerBulletMovement bulletScript = bulletClone.GetComponent<PlayerBulletMovement>();
-
-            if (bulletScript != null)
+            if (passedTime >= attackDelay)
             {
-                bulletScript.ShotBullet(firePoint, lookAngle);
-            }
+                GameObject bulletClone = Instantiate(bullet);
+                PlayerBulletMovement bulletScript = bulletClone.GetComponent<PlayerBulletMovement>();
+
+                if (bulletScript != null)
+                {
+                    bulletScript.ShotBullet(firePoint, lookAngle);
+                }
+                passedTime = 0;
+            }            
         }
     }
 }

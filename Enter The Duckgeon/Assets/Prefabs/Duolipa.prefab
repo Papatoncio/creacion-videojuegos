@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2354487711170059413}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 1.8, y: -0.86, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03, y: -0.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -155,8 +155,8 @@ GameObject:
   - component: {fileID: 220190255981808267}
   - component: {fileID: 2977660072747681092}
   m_Layer: 0
-  m_Name: Player 1
-  m_TagString: Untagged
+  m_Name: Duolipa
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -218,7 +218,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6f2f1da3e577afb469c2683b5e0a5344, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 114d3b15b4d3c5e4a9123ed784956dec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -239,7 +239,7 @@ Animator:
   m_GameObject: {fileID: 5714746616315318739}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9e73b246a1bafee4cb3e8712799c353b, type: 2}
+  m_Controller: {fileID: 9100000, guid: b5d3ccba8e991444dab9cf59bfc06b8b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -264,22 +264,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   numOfHearts: 3
-  hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  hearts: []
   fullHeart: {fileID: -558261816, guid: b8af3299403ecdc49b65df7a7cc73093, type: 3}
   emptyHeart: {fileID: -335150536, guid: b8af3299403ecdc49b65df7a7cc73093, type: 3}
   smallDamage: 1
   largeDamage: 2
-  deathSound: {fileID: 0}
+  cokeEffect: 0.05
 --- !u!114 &8195311399195386109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,11 +282,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d9d3734bb8b6b143aa26965193eae6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  bullet: {fileID: 2404189750097757442, guid: 80e11ff434f20244baf7e90383d5cc76, type: 3}
+  bullet: {fileID: 2404189750097757442, guid: 5d35870c8397f6446bbc7e6fe0119ded, type: 3}
   firePoint: {fileID: 3052536874417137353}
-  bulletSpeed: 50
   gun: {fileID: 2354487711170059413}
+  moveSpeed: 5
+  attackDelay: 1
+  passedTime: 0
 --- !u!50 &6547879678791303584
 Rigidbody2D:
   serializedVersion: 4
