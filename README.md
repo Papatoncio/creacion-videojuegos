@@ -47,8 +47,8 @@
 ## Lección 5
 - Proyecto Parte 5: [Prototipo 5 Parte 5](https://github.com/Papatoncio/creacion-videojuegos/blob/ee1b2a93ec1dcc0b419e52c488701a83f1ce6662/Prototipos/Prototipo%205/Prototipo%205%20Parte%205.unitypackage)
 - Evidencia Parte 5: [Evidencia Parte 5](https://github.com/Papatoncio/creacion-videojuegos/blob/ee1b2a93ec1dcc0b419e52c488701a83f1ce6662/Prototipos/Prototipo%205/Prototipo%205%20Parte%205.pdf)
-- Proyecto Parte 6: [Prototipo 5 Parte 6]()
-- Evidencia Parte 6: [Evidencia Parte 6]()
+- Proyecto Parte 6: [Prototipo 5 Parte 6](https://github.com/Papatoncio/creacion-videojuegos/blob/96e718b29b2e06b6359b1d9120afbae4946dac16/Prototipos/Prototipo%205/Prototipo%205%20Parte%206.unitypackage)
+- Evidencia Parte 6: [Evidencia Parte 6](https://github.com/Papatoncio/creacion-videojuegos/blob/96e718b29b2e06b6359b1d9120afbae4946dac16/Prototipos/Prototipo%205/Prototipo%205%20Parte%206.pdf)
 
 # Planificación
 
