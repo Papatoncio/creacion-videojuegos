@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using static System.Net.Mime.MediaTypeNames.Image;
@@ -18,6 +19,12 @@ public class PlayerHealth : MonoBehaviour
 
     private AudioSource deathSound;
     private PlayerMovent movementScript;
+    private TextMeshProUGUI coinsLabel;
+    private TextMeshProUGUI scoreLabel;
+    private TextMeshProUGUI timerLabel;
+    private int coins = 0;
+    private int score = 0;
+    private float timePassed = 0;
 
     void Start()
     {
@@ -56,11 +63,31 @@ public class PlayerHealth : MonoBehaviour
         {
             movementScript = gameObject.GetComponent<PlayerMovent>();
         }
+
+        if (coinsLabel == null)
+        {
+            coinsLabel = GameObject.Find("CoinsLabel").GetComponent<TextMeshProUGUI>();
+            coinsLabel.text = coins.ToString();
+        }
+
+        if (scoreLabel == null)
+        {
+            scoreLabel = GameObject.Find("ScoreLabel").GetComponent<TextMeshProUGUI>();
+            scoreLabel.text = score.ToString();
+        }
+
+        if (timerLabel == null)
+        {
+            timerLabel = GameObject.Find("TimerLabel").GetComponent<TextMeshProUGUI>();
+            timerLabel.text = timePassed.ToString();
+        }
     }
 
     void Update()
     {
         UpdateHealth();
+        updateTimer();
+        
     }
 
     // Detecta las colisiones con los objetos usando OnTriggerEnter2D
@@ -90,6 +117,15 @@ public class PlayerHealth : MonoBehaviour
             movementScript.attackDelay -= cokeEffect;
             movementScript.attackDelay = Mathf.Max(0, movementScript.attackDelay); // Asegura que attackDelay no sea negativo
             Destroy(other.gameObject); // Destruye la bala
+        }
+
+        // Detecta si colisiona con una "Coin"
+        else if (other.gameObject.CompareTag("Coin"))
+        {
+            // Recoje una moneda y la suma a la cantidad de monedas
+            coins += 1;
+            coinsLabel.text = coins.ToString();
+            Destroy(other.gameObject); // Destruye la moneda
         }
 
         // Detecta si colisiona con una "LargeEnemyBullet"
@@ -156,5 +192,39 @@ public class PlayerHealth : MonoBehaviour
         deathSound.Play();
         LevelManager.instance.GameOver();
         gameObject.SetActive(false);
+    }
+
+    private void updateTimer()
+    {
+        timePassed += Time.deltaTime;
+        float minutes = Mathf.FloorToInt(timePassed / 60);
+        float seconds = Mathf.FloorToInt(timePassed % 60);
+
+        timerLabel.text = string.Format("{0:00} : {1:00}", minutes, seconds);
+    }
+
+    public void addToScore(int maxPoints)
+    {
+        // Ajuste por tiempo
+        float timePenaltyMultiplier = 1f;
+        if (timePassed >= 60f && timePassed < 150f) // Entre 1 y 2.5 minutos
+        {
+            timePenaltyMultiplier = 0.8f; // Reduce los puntos en un 20%
+        }
+        else if (timePassed >= 150f) // Más de 2.5 minutos
+        {
+            timePenaltyMultiplier = 0.5f; // Reduce los puntos en un 50%
+        }
+
+        // Cálculo de puntos con penalización por tiempo
+        float adjustedPoints = maxPoints * timePenaltyMultiplier;
+
+        // Bonificación por monedas
+        float coinMultiplier = 1 + (coins * 0.01f); // Aumenta puntos en un 1% por cada moneda
+        adjustedPoints *= coinMultiplier;
+
+        // Sumar puntos al puntaje total
+        score += Mathf.RoundToInt(adjustedPoints);
+        scoreLabel.text = score.ToString();
     }
 }

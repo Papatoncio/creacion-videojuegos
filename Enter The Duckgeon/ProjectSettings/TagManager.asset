@@ -11,6 +11,8 @@ TagManager:
   - SmallPlayerBullet
   - LargePlayerBullet
   - Coke
+  - Border
+  - Coin
   layers:
   - Default
   - TransparentFX

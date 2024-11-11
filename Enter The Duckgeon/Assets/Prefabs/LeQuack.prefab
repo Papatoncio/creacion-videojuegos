@@ -154,6 +154,7 @@ GameObject:
   - component: {fileID: 6547879678791303584}
   - component: {fileID: 220190255981808267}
   - component: {fileID: 2977660072747681092}
+  - component: {fileID: 1055358985780308679}
   m_Layer: 0
   m_Name: LeQuack
   m_TagString: Player
@@ -285,7 +286,7 @@ MonoBehaviour:
   bullet: {fileID: 2404189750097757442, guid: 80e11ff434f20244baf7e90383d5cc76, type: 3}
   firePoint: {fileID: 3052536874417137353}
   gun: {fileID: 2354487711170059413}
-  moveSpeed: 5
+  moveSpeed: 3
   attackDelay: 0.5
   passedTime: 0
 --- !u!50 &6547879678791303584
@@ -313,8 +314,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!58 &220190255981808267
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -446,3 +447,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &1055358985780308679
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5714746616315318739}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.4, y: 1.2}
+    newSize: {x: 1.4, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 1.2}
+  m_EdgeRadius: 0

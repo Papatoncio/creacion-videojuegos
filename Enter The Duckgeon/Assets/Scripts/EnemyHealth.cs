@@ -7,6 +7,17 @@ public class EnemyHealth : MonoBehaviour
     public int health;
     public int smallDamage;
     public int largeDamage;
+    public GameObject coinPrefab;
+    public int maxPoints;
+
+    private GameObject player;
+    private PlayerHealth playerScript;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerScript = player.GetComponent<PlayerHealth>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -28,10 +39,9 @@ public class EnemyHealth : MonoBehaviour
             Destroy(other.gameObject); // Destruye la bala
         }
 
-        // Si la salud llega a cero, puedes hacer algo como mostrar la pantalla de Game Over, etc.
+        // Si la salud llega a cero, actualiza puntuación y destruye al enemigo.
         if (health <= 0)
         {
-            // Lógica de muerte del jugador (reiniciar nivel, mostrar pantalla de Game Over, etc.)
             UnityEngine.Debug.Log("Enemigo ha muerto");
             EnemyDied();
         }
@@ -39,6 +49,20 @@ public class EnemyHealth : MonoBehaviour
 
     private void EnemyDied()
     {
+        addToScore();
+        SpawnReward();
         Destroy(gameObject);
+    }
+
+    private void SpawnReward()
+    {
+        GameObject reward = Instantiate(coinPrefab);
+        reward.transform.position = gameObject.transform.position;
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+    }
+
+    private void addToScore()
+    {
+        playerScript.addToScore(maxPoints);
     }
 }

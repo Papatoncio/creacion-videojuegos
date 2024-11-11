@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4076554250000582354}
   - component: {fileID: 6889515419183447940}
   - component: {fileID: 3287173242619487122}
+  - component: {fileID: -7461047376056690012}
   m_Layer: 0
   m_Name: MonkeyDQuack
   m_TagString: Untagged
@@ -155,6 +156,8 @@ MonoBehaviour:
   health: 3
   smallDamage: 1
   largeDamage: 2
+  coinPrefab: {fileID: 3908975816754316926, guid: 967a5747eec82ce409306b72caec4b73, type: 3}
+  maxPoints: 100
 --- !u!95 &6889515419183447940
 Animator:
   serializedVersion: 5
@@ -211,6 +214,51 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!61 &-7461047376056690012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3909705837990391568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.4, y: 1.2}
+    newSize: {x: 1.4, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 1.2}
+  m_EdgeRadius: 0
 --- !u!1 &6732595805399242048
 GameObject:
   m_ObjectHideFlags: 0

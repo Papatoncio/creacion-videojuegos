@@ -48,4 +48,13 @@ public class PlayerBulletMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Detecta si colisiona con "Border"
+        if (other.gameObject.CompareTag("Border"))
+        {
+            Destroy(gameObject); // Destruye la bala
+        }
+    }
 }
