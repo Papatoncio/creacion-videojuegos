@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
     public int health;
     public int smallDamage;
     public int largeDamage;
-    public GameObject coinPrefab;
+    public GameObject[] objects;
     public int maxPoints;
 
     private GameObject player;
@@ -56,7 +56,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void SpawnReward()
     {
-        GameObject reward = Instantiate(coinPrefab);
+        GameObject reward = Instantiate(objects[0]);
         reward.transform.position = gameObject.transform.position;
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }

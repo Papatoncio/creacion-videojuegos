@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy:
   - {fileID: 3909705837990391568, guid: a30f7fe11ef5e3746b19ae92a4164f62, type: 3}
+  - {fileID: 3909705837990391568, guid: ec366f478aeaac2419d90b8e35b7f7c7, type: 3}
   spawnPoint: {fileID: 3920895832173741526}
-  spawnDelay: 2
+  spawnDelay: 4
   passedTime: 0

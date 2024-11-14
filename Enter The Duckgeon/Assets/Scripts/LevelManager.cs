@@ -24,6 +24,17 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void WinGame()
+    {
+        UIManager _ui = GetComponent<UIManager>();
+
+        if (_ui != null)
+        {
+            _ui.ToggleWinPanel();
+            Time.timeScale = 0;
+        }
+    }
+
     public void Menu()
     {
         SceneManager.LoadSceneAsync(0);

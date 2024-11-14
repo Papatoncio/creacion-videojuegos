@@ -13,6 +13,7 @@ TagManager:
   - Coke
   - Border
   - Coin
+  - WinFlag
   layers:
   - Default
   - TransparentFX

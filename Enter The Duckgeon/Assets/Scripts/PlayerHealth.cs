@@ -93,8 +93,14 @@ public class PlayerHealth : MonoBehaviour
     // Detecta las colisiones con los objetos usando OnTriggerEnter2D
     void OnTriggerEnter2D(Collider2D other)
     {
+        // Detecta si colisiona con una "WinFlag"
+        if (other.gameObject.CompareTag("WinFlag"))
+        {
+            WinGame();
+        }
+
         // Detecta si colisiona con una "Apple"
-        if (other.gameObject.CompareTag("Apple"))
+        else if (other.gameObject.CompareTag("Apple"))
         {
             // Recupera 1 punto de vida
             health = Mathf.Min(health + 1, numOfHearts); // Asegura que no se exceda el máximo de vida
@@ -196,11 +202,23 @@ public class PlayerHealth : MonoBehaviour
 
     private void updateTimer()
     {
-        timePassed += Time.deltaTime;
+        timePassed += Time.deltaTime;        
+        timerLabel.text = formatTime();
+    }
+
+    private string formatTime()
+    {
+        float[] time = getMinutesSeconds();
+        return string.Format("{0:00} : {1:00}", time[0], time[1]);
+    }
+
+    private float[] getMinutesSeconds()
+    {        
         float minutes = Mathf.FloorToInt(timePassed / 60);
         float seconds = Mathf.FloorToInt(timePassed % 60);
+        float[] time = { minutes, seconds };
 
-        timerLabel.text = string.Format("{0:00} : {1:00}", minutes, seconds);
+        return time;
     }
 
     public void addToScore(int maxPoints)
@@ -226,5 +244,18 @@ public class PlayerHealth : MonoBehaviour
         // Sumar puntos al puntaje total
         score += Mathf.RoundToInt(adjustedPoints);
         scoreLabel.text = score.ToString();
+    }
+
+    public void WinGame()
+    {
+        LevelManager.instance.WinGame();
+        GameObject.Find("TimerText").GetComponent<TextMeshProUGUI>().text = ("Tiempo: " + formatTime());
+        GameObject.Find("ScoreText").GetComponent<TextMeshProUGUI>().text = ("Puntos: " + score.ToString());
+        GameObject.Find("CoinsText").GetComponent<TextMeshProUGUI>().text = ("Monedas: " + coins.ToString());        
+    }
+
+    public float GetTime()
+    {
+        return timePassed;
     }
 }

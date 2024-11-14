@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 6889515419183447940}
   - component: {fileID: 3287173242619487122}
   - component: {fileID: -7461047376056690012}
+  - component: {fileID: -8341848984992135446}
   m_Layer: 0
   m_Name: MonkeyDQuack
   m_TagString: Untagged
@@ -156,7 +157,11 @@ MonoBehaviour:
   health: 3
   smallDamage: 1
   largeDamage: 2
-  coinPrefab: {fileID: 3908975816754316926, guid: 967a5747eec82ce409306b72caec4b73, type: 3}
+  objects:
+  - {fileID: 3908975816754316926, guid: 967a5747eec82ce409306b72caec4b73, type: 3}
+  - {fileID: 2722379064494552910, guid: 13475a3e800af1b47b6678c51520ad0c, type: 3}
+  - {fileID: 886735397464826992, guid: 98cd46258068c04469d9fdd951289eb1, type: 3}
+  - {fileID: 2722379064494552910, guid: b10d26a0d4ac2c243b818d863ea24bd0, type: 3}
   maxPoints: 100
 --- !u!95 &6889515419183447940
 Animator:
@@ -208,7 +213,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -259,6 +264,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.2}
   m_EdgeRadius: 0
+--- !u!50 &-8341848984992135446
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3909705837990391568}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &6732595805399242048
 GameObject:
   m_ObjectHideFlags: 0
