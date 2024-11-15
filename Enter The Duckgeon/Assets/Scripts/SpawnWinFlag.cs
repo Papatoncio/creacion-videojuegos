@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SpawnWinFlag : MonoBehaviour
 {
+    public int flagTime;
 
     private GameObject player;
     private PlayerHealth playerScript;
@@ -30,7 +31,7 @@ public class SpawnWinFlag : MonoBehaviour
     private void CheckTimePassed()
     {
         float timePassed = playerScript.GetTime();
-        if (timePassed > 60 && !isSpawned) {
+        if (timePassed > flagTime && !isSpawned) {
             isSpawned = true;
             messagesScript.ShowAdviceMessage();
             circleCollider.enabled = true;

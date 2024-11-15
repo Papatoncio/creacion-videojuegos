@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ShowMessages.cs",
               "ViewState": "AgIAACgAAACAZWZmZmYiwD8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:08:56.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:08:56.738Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnWinFlag.cs",
               "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\SpawnWinFlag.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnWinFlag.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T06:47:54.221Z",
               "EditorCaption": ""
