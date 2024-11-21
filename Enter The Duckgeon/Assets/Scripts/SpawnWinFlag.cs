@@ -33,7 +33,7 @@ public class SpawnWinFlag : MonoBehaviour
         float timePassed = playerScript.GetTime();
         if (timePassed > flagTime && !isSpawned) {
             isSpawned = true;
-            messagesScript.ShowAdviceMessage();
+            messagesScript.ShowWinFlagMessage();
             circleCollider.enabled = true;
         }
     }

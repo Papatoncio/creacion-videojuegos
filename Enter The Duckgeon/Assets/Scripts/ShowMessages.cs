@@ -42,10 +42,17 @@ public class ShowMessages : MonoBehaviour
         adviceMessage.gameObject.SetActive(false);
     }
 
-    public void ShowAdviceMessage() {
+    public void ShowWinFlagMessage()
+    {
+        string text = "Aviso: has sobrevivido lo suficiente, recoje la bandera.";
+        ShowAdviceMessage(text);
+    }
+
+    private void ShowAdviceMessage(string text) {
         timePassed = 0;
         gameObject.SetActive(true);
         adviceMessage.gameObject.SetActive(true);
+        adviceMessage.text = text;
         missionMessage.gameObject.SetActive(false);
     }
 

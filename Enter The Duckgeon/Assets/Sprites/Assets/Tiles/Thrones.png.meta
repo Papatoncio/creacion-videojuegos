@@ -1,0 +1,2793 @@
+fileFormatVersion: 2
+guid: 0a486e7ab0428e542911980a93d39d56
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thrones_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 458.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78204e014b0cfb843a96cf8645299ba0
+      internalID: -1427752364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 458.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebbf32726d367948aab77a26f9d0d01
+      internalID: -929591293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 458.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f02780031bcf2448acf00228db7c68
+      internalID: -1150743571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 458.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adb088295c2aaa4e9a93c5e5e5bd70f
+      internalID: 1879826370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 458.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc3ab316e0e39a47b9b0c9e8ea1ff00
+      internalID: 276110338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 458.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabb9cf0e6ecddf4d9354c80a735eb7c
+      internalID: 1994138935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b864c0c5cc87b4aab4646aafaf40ca
+      internalID: 62904108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986ec05419cee0459b01f11d449753f
+      internalID: 1902957728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80a8093354a57d4d9c54af43a2114a9
+      internalID: -1075721408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528321aa3f21e2644b91d5822b54abce
+      internalID: -554963468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3fbe62927010e4482c4c8fede6cbce
+      internalID: -809577245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20534c95569dbfd4aa6172662ffb744a
+      internalID: 572790519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00306642451a49141a48c41b5e2479e4
+      internalID: 1066788292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e8727a6e79bab40bc158d7eb30b84f
+      internalID: 592643477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e815e05891c49ff48b34876c394955c5
+      internalID: 68479884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ba349d7ae1d194398bfe03726287c2
+      internalID: -670095833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7e3d2c54febd74d81a4351297b1ca2
+      internalID: -1384925174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_17
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 417.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91d30f51976e4149bf0456d4f842d0d
+      internalID: -389167822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b2d992bb5f6b42b1294702976f013
+      internalID: 1597459601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c37b0bc2079164fa22a289f453aee9
+      internalID: -1102867629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d23937bc77305142a0662abb4faec96
+      internalID: 967824371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e71c7842d60543bed5991f318a739
+      internalID: -21592174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48d6d704935ecf4cb87b0f51e412f15
+      internalID: -1495933797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d722b2a971a6a4b468772278e830fe5a
+      internalID: 642506942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_24
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef430521215ca74e8501b66eaf60959
+      internalID: 2080961531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_25
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef646abe64567b4f85e6fd36bb67c6c
+      internalID: -335631720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_26
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f034e6987e8d8641a351478e33419fb
+      internalID: 1511908555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_27
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708e527a7d7437f4aac3ce474e3b4303
+      internalID: -1618553510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_28
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a326e82acf81e945bf2a3ffcefb4772
+      internalID: -881506297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_29
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 376.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f99fc519ce1b614bbc69941183b41d0
+      internalID: -1218825774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5ca715f9b7c0e449a20f888e3fad15
+      internalID: 1120674880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b0a888a65a62e4da3d5546f2066a00
+      internalID: 386751683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b0fafd7506fe14a91f26add07251d8
+      internalID: 31714220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_33
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf9127a4557dd4fbdda5b87a35b15d
+      internalID: 1067458227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da10eed9d07a1440ba596319ae8fb9a
+      internalID: -1539197232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_35
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f49143ebd33c9488bef8f6b96dd645
+      internalID: -1557356695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440e3e24a27f9284e9a3ec741b164998
+      internalID: -1159966519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_37
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e3c8aaae301bb4cba9e5d564916c33
+      internalID: -1302385103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6860c700a4507e478f612c66d8bcbc2
+      internalID: 1689596153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e14948c934e0d4ab706e103cf38c89
+      internalID: -1101437282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_40
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7498380894e240f4fa77067d3c88d930
+      internalID: -321885822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 335.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe42e8124c264a40921656494cd19b6
+      internalID: 918471562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_42
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 294.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9bfe40e32a5214d906a41f8b97d6e2
+      internalID: 1267792293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_43
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 294.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171803d58dee4ae429b0a902d431387e
+      internalID: 1707995354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_44
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 294.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153cb2b01e871504e9176a693f4750c7
+      internalID: 1406831193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_45
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 294.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd27483a98b18df47ac5dcc9c43d93be
+      internalID: 1980139945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_46
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 294.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a53a905f3631f4f9f5fe24c6ccb2ba
+      internalID: -69216612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_47
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 294.33334
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803c5529e709cda49aa623a85cf2ea31
+      internalID: 1741958414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4663248af055541aab68a661fcb05c
+      internalID: -925468214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d7462fe9d33648826a308e5b787a7
+      internalID: 615353470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6340ce325dd4cb43b589ce51bc83fb8
+      internalID: 1830648790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_51
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd1dcfed9c28c945b0348be6caedd2d
+      internalID: -402111383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_52
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009939d93993e474799f2fb08a9d3b1b
+      internalID: -828724408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_53
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa288be5605376248acc71cc55e68f40
+      internalID: 22155929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_54
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d505f88829fb59e4d8789d49ff49c326
+      internalID: -1387278651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_55
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e0a46103444814c976cb5ead05d1f8
+      internalID: -623246821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_56
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7c291d2f44854439fa39a8a6228f21
+      internalID: -1469009432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_57
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbb176fb8b8e6f459f84631d222677f
+      internalID: -375218599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_58
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 253.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bd644c8ce5bd54f8cb7547021764f7
+      internalID: -1931979100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a20b8632f38984b82e07209730f154
+      internalID: -105922131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_60
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5cc214637ca944c804e8d9152f5b38
+      internalID: -213011823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_61
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a37e84f2f6fd149bd32c8ed5dd20e3
+      internalID: 1838252538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc5d8de1068be04e88efc7bfcf74610
+      internalID: 1931211966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_63
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343eac6122bcb5b48a4a124b9c3a1731
+      internalID: 310697564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_64
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18fe080e80faad45a2be94a64b05d4c
+      internalID: 817561493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_65
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5c9a612d606fd4dbf163e7c87ded62
+      internalID: -1955583415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_66
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d0fb7fa9a0b9643b553a49369fdbfd
+      internalID: -286890926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_67
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386cb523e49f8c46a433398cc4eda27
+      internalID: 1516941269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_68
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06166973c91df73428aec132ff22ae63
+      internalID: 1695323017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_69
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 212.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865e2560a9a17e54e8910060319e5e70
+      internalID: -1717050681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3623b07aac64249b0a9233b7dc64d5
+      internalID: -308675822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_71
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7126b23fe16b745b7d99a8a260be4f
+      internalID: 263205079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_72
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e640532b94bb794083afb925d651318
+      internalID: -724735566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_73
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1c9e603ef11244cb50e6ed70ffec56
+      internalID: 985667672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_74
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a51d75d19bd07b4e8f0807085b3b144
+      internalID: -1575190078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_75
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee9f1775f0ff9848ace6121b0e36ba4
+      internalID: 2096328932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_76
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba5ffa028dd25459c85a152b2e732b
+      internalID: 118763596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_77
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d99d9ee3613f8f45affd4dc4e5ee961
+      internalID: 613878120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_78
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c3e11f8797063499475ca3b8974176
+      internalID: -1644897424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_79
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460466f0c98174245822aeb9fa643915
+      internalID: 2029440678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_80
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261866f36e9bc3b42989f5f2f17bc63f
+      internalID: 1828299513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977452ff6d323ab488b25a55b9fa6d7f
+      internalID: 953937480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_82
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 130.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d305b08356f83d4fac344e869bb9396
+      internalID: -1849720983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_83
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 130.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e27a3c7faa5887498e6d0300e1c4a69
+      internalID: -1677468461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_84
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 130.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46783e9d3c50e54f936232ad2d593bc
+      internalID: -777478959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_85
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 130.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406579974cb840c4a910925c4bbe066b
+      internalID: 851496470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_86
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 130.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8863ac6c691282545a4e919469c90b46
+      internalID: 95362801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_87
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 130.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce88a04c8f5e934fa53feaca8fa7b59
+      internalID: -128175812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58d71a1845284647a54c1af6ada4bce
+      internalID: -377192002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_89
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a971e2e76ce66d141acd7f1735dcd052
+      internalID: -942165838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_90
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ace0c25827583748a1659011585b399
+      internalID: -1821059134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_91
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30231cf33cb1142a6de1d51b251c5a
+      internalID: 79645289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_92
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e1b965db76279409d463b051699e3c
+      internalID: -107639831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_93
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f040fe962a338419db737c0a64ac35
+      internalID: 233739582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_94
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b596404ecbc39843a57005e588a6462
+      internalID: -1880739768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_95
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a626ad99930248b865492c0fd3195
+      internalID: -1867457597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_96
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75024ac9a1f195a4687e4c2bd4e10fd7
+      internalID: -304682446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_97
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 89.33333
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20760f1bbae336e429f4d9ab26c20dc2
+      internalID: -821164095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7466cc6f6f737242ae7fcdf5d5aa348
+      internalID: -237639692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_99
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae8cd3b06388e43bd1794f3cbff305
+      internalID: -1106575086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_100
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a201ec6dada54a9cf1c13af5b76fc
+      internalID: -1055739885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_101
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef70c944676b75468f204b99719759c
+      internalID: -1722189528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_102
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b887584c6bf7a6540b21084795043a53
+      internalID: 865008648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_103
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c32ef255f3252448abd54a94c0668c
+      internalID: 585196045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_104
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842ffa1810e0c014ba47b6b06b1032a7
+      internalID: -1023605232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_105
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0d0deec3894eb4f9928ba87c8f9899
+      internalID: -2010380217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_106
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bf09afb2fff214a90cc0c15e773064
+      internalID: -715648139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_107
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 48.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b5a81ff68dfec41be26e0d0d25498a
+      internalID: -1777689899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e5159b9b42d10419a88fba090124fd
+      internalID: 374176645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_109
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660880f5ea40f1846b59722feaf2db9e
+      internalID: -1371679984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_110
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5623919cd90c8754e96fcbf6b2a469ec
+      internalID: 1590128961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_111
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9398f756fbc73ae4f9dc16e12071eb1c
+      internalID: 523232171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_112
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5522b40c56ab5774f9294b1e8ef59e6f
+      internalID: 1848827415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_113
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10602555d1ab414f93444332e1697b9
+      internalID: -1301555649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_114
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6fdf6e6b9a35a419ef41d83b4b1e16
+      internalID: 144469112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_115
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f90a58de9ac7e94d8ee12ed303bdb9b
+      internalID: -1584981110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_116
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7acfe8a9584f22478d4c1f0cded0d2d
+      internalID: 1660902338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_117
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62389d376fc75fa4a97786dde98ed8a4
+      internalID: -748930908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_118
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e29cfdb18f454bae79d7b8fa7bd40
+      internalID: -1502772648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrones_119
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 7.333332
+        width: 41.666668
+        height: 41.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da728da45d996a49a482b79a9486817
+      internalID: -1919877365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Thrones_0: -1427752364
+      Thrones_1: -929591293
+      Thrones_10: -809577245
+      Thrones_100: -1055739885
+      Thrones_101: -1722189528
+      Thrones_102: 865008648
+      Thrones_103: 585196045
+      Thrones_104: -1023605232
+      Thrones_105: -2010380217
+      Thrones_106: -715648139
+      Thrones_107: -1777689899
+      Thrones_108: 374176645
+      Thrones_109: -1371679984
+      Thrones_11: 572790519
+      Thrones_110: 1590128961
+      Thrones_111: 523232171
+      Thrones_112: 1848827415
+      Thrones_113: -1301555649
+      Thrones_114: 144469112
+      Thrones_115: -1584981110
+      Thrones_116: 1660902338
+      Thrones_117: -748930908
+      Thrones_118: -1502772648
+      Thrones_119: -1919877365
+      Thrones_12: 1066788292
+      Thrones_13: 592643477
+      Thrones_14: 68479884
+      Thrones_15: -670095833
+      Thrones_16: -1384925174
+      Thrones_17: -389167822
+      Thrones_18: 1597459601
+      Thrones_19: -1102867629
+      Thrones_2: -1150743571
+      Thrones_20: 967824371
+      Thrones_21: -21592174
+      Thrones_22: -1495933797
+      Thrones_23: 642506942
+      Thrones_24: 2080961531
+      Thrones_25: -335631720
+      Thrones_26: 1511908555
+      Thrones_27: -1618553510
+      Thrones_28: -881506297
+      Thrones_29: -1218825774
+      Thrones_3: 1879826370
+      Thrones_30: 1120674880
+      Thrones_31: 386751683
+      Thrones_32: 31714220
+      Thrones_33: 1067458227
+      Thrones_34: -1539197232
+      Thrones_35: -1557356695
+      Thrones_36: -1159966519
+      Thrones_37: -1302385103
+      Thrones_38: 1689596153
+      Thrones_39: -1101437282
+      Thrones_4: 276110338
+      Thrones_40: -321885822
+      Thrones_41: 918471562
+      Thrones_42: 1267792293
+      Thrones_43: 1707995354
+      Thrones_44: 1406831193
+      Thrones_45: 1980139945
+      Thrones_46: -69216612
+      Thrones_47: 1741958414
+      Thrones_48: -925468214
+      Thrones_49: 615353470
+      Thrones_5: 1994138935
+      Thrones_50: 1830648790
+      Thrones_51: -402111383
+      Thrones_52: -828724408
+      Thrones_53: 22155929
+      Thrones_54: -1387278651
+      Thrones_55: -623246821
+      Thrones_56: -1469009432
+      Thrones_57: -375218599
+      Thrones_58: -1931979100
+      Thrones_59: -105922131
+      Thrones_6: 62904108
+      Thrones_60: -213011823
+      Thrones_61: 1838252538
+      Thrones_62: 1931211966
+      Thrones_63: 310697564
+      Thrones_64: 817561493
+      Thrones_65: -1955583415
+      Thrones_66: -286890926
+      Thrones_67: 1516941269
+      Thrones_68: 1695323017
+      Thrones_69: -1717050681
+      Thrones_7: 1902957728
+      Thrones_70: -308675822
+      Thrones_71: 263205079
+      Thrones_72: -724735566
+      Thrones_73: 985667672
+      Thrones_74: -1575190078
+      Thrones_75: 2096328932
+      Thrones_76: 118763596
+      Thrones_77: 613878120
+      Thrones_78: -1644897424
+      Thrones_79: 2029440678
+      Thrones_8: -1075721408
+      Thrones_80: 1828299513
+      Thrones_81: 953937480
+      Thrones_82: -1849720983
+      Thrones_83: -1677468461
+      Thrones_84: -777478959
+      Thrones_85: 851496470
+      Thrones_86: 95362801
+      Thrones_87: -128175812
+      Thrones_88: -377192002
+      Thrones_89: -942165838
+      Thrones_9: -554963468
+      Thrones_90: -1821059134
+      Thrones_91: 79645289
+      Thrones_92: -107639831
+      Thrones_93: 233739582
+      Thrones_94: -1880739768
+      Thrones_95: -1867457597
+      Thrones_96: -304682446
+      Thrones_97: -821164095
+      Thrones_98: -237639692
+      Thrones_99: -1106575086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

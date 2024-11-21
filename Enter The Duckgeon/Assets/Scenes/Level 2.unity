@@ -865,8 +865,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 35, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: 30, y: 0}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &209844545
 MonoBehaviour:
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -259225348, guid: 73506926164714b4285ec3beab0d7a01, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7631b08170d76064a8ebda14332cf6da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1042,10 +1042,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 26, y: 50}
-      - {x: -39, y: 50}
-      - {x: -39, y: -15}
-      - {x: 26, y: -15}
+    - - {x: 35, y: 35}
+      - {x: -35, y: 35}
+      - {x: -35, y: -35}
+      - {x: 35, y: -35}
   m_UseDelaunayMesh: 0
 --- !u!4 &211428569
 Transform:
@@ -7629,7 +7629,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Aviso: has sobrevivido lo suficiente, recoje la bandera.'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18884,7 +18884,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6.5
+    OrthographicSize: 7.5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -19013,7 +19013,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -19660,8 +19660,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 35, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: 29, y: 0}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1278901400
 MonoBehaviour:
@@ -19683,7 +19683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -259225348, guid: 73506926164714b4285ec3beab0d7a01, type: 3}
+  m_Sprite: {fileID: -1969789778, guid: b80eded603464d147b967b204628b6fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
