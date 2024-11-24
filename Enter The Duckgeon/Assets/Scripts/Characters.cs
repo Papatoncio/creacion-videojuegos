@@ -11,4 +11,8 @@ public class Characters : ScriptableObject
     public Sprite characterImage;
 
     public string characterName;
+
+    public string healthQuantity;
+
+    public string shotSpeed;
 }

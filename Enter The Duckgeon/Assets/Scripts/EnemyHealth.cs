@@ -42,7 +42,6 @@ public class EnemyHealth : MonoBehaviour
         // Si la salud llega a cero, actualiza puntuación y destruye al enemigo.
         if (health <= 0)
         {
-            UnityEngine.Debug.Log("Enemigo ha muerto");
             EnemyDied();
         }
     }
@@ -56,10 +55,28 @@ public class EnemyHealth : MonoBehaviour
 
     private void SpawnReward()
     {
-        GameObject reward = Instantiate(objects[0]);
+        float[] probabilities = { 91f, 3f, 3f, 3f };
+
+        float randomValue = Random.Range(0f, 100f);
+
+        float cumulativeProbability = 0f;
+        int selectedIndex = 0;
+
+        for (int i = 0; i < probabilities.Length; i++)
+        {
+            cumulativeProbability += probabilities[i];
+            if (randomValue <= cumulativeProbability)
+            {
+                selectedIndex = i;
+                break;
+            }
+        }
+
+        GameObject reward = Instantiate(objects[selectedIndex]);
         reward.transform.position = gameObject.transform.position;
-        transform.rotation = Quaternion.Euler(0, 0, 0);
+        reward.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
+
 
     private void addToScore()
     {

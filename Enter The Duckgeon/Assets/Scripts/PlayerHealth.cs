@@ -156,7 +156,6 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
             // Lógica de muerte del jugador (reiniciar nivel, mostrar pantalla de Game Over, etc.)
-            UnityEngine.Debug.Log("Jugador ha muerto");
             UpdateHealth();
             PlayerDied();
         }

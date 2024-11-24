@@ -15,3 +15,5 @@ MonoBehaviour:
   playableCharacter: {fileID: 5714746616315318739, guid: 9177fa84b47e2c64abc2bf344f21c879, type: 3}
   characterImage: {fileID: 21300000, guid: 6f2f1da3e577afb469c2683b5e0a5344, type: 3}
   characterName: LeQuack
+  healthQuantity: 3X
+  shotSpeed: 2/S

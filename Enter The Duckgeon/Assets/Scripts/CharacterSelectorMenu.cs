@@ -13,6 +13,8 @@ public class CharacterSelectorMenu : MonoBehaviour
     [SerializeField] private Image characterImage;
 
     [SerializeField] private TextMeshProUGUI characterName;
+    [SerializeField] private TextMeshProUGUI healthQuantity;
+    [SerializeField] private TextMeshProUGUI shotSpeed;
 
     private GameManager gameManager;
 
@@ -35,6 +37,8 @@ public class CharacterSelectorMenu : MonoBehaviour
         PlayerPrefs.SetInt("PlayerIndex", index);
         characterImage.sprite = gameManager.characters[index].characterImage;
         characterName.text = gameManager.characters[index].characterName;
+        healthQuantity.text = gameManager.characters[index].healthQuantity;
+        shotSpeed.text = gameManager.characters[index].shotSpeed;
     }
 
     public void NextCharacter()

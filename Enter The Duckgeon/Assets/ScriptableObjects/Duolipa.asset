@@ -15,3 +15,5 @@ MonoBehaviour:
   playableCharacter: {fileID: 5714746616315318739, guid: dbe020157e196874eb0618f34c6c9705, type: 3}
   characterImage: {fileID: 21300000, guid: 114d3b15b4d3c5e4a9123ed784956dec, type: 3}
   characterName: Duolipa
+  healthQuantity: 3X
+  shotSpeed: 1/S

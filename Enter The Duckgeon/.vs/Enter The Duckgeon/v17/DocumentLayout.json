@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\",
+  "WorkspaceRootPath": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\datos\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\characterselectormenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterselectormenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\datos\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|c:\\users\\juanp\\desktop\\datos\\unity\\creacion-videojuegos\\enter the duckgeon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnwinflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708C88DF-21CA-F2E1-8AF6-11492038855F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CharacterSelectorMenu.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\CharacterSelectorMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSelectorMenu.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\CharacterSelectorMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterSelectorMenu.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:14:21.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Characters.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\Characters.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Characters.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\Characters.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Characters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:11:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ShowMessages.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\ShowMessages.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\ShowMessages.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShowMessages.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\ShowMessages.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\ShowMessages.cs",
               "RelativeToolTip": "Assets\\Scripts\\ShowMessages.cs",
               "ViewState": "AgIAAB0AAABAKjMzMzMPwCwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:08:56.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:48:32.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpawnWinFlag.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\SpawnWinFlag.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnWinFlag.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\SpawnWinFlag.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnWinFlag.cs",
-              "ViewState": "AgIAABYAAABAl5mZmZklwCQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:47:54.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:08:56.738Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIBJwCkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:48:32.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpawnWinFlag.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\SpawnWinFlag.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnWinFlag.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\SpawnWinFlag.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnWinFlag.cs",
+              "ViewState": "AgIAABYAAABAl5mZmZklwCQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:47:54.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\juanp\\Desktop\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\juanp\\Desktop\\Datos\\Unity\\creacion-videojuegos\\Enter The Duckgeon\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAWwJ4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAawLMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T23:01:38.662Z"
             }
