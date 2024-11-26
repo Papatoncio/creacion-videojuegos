@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
     private int coins = 0;
     private int score = 0;
     private float timePassed = 0;
+    private SpawnTeleportFlag spawnTeleportFlag;
 
     void Start()
     {
@@ -81,6 +82,11 @@ public class PlayerHealth : MonoBehaviour
             timerLabel = GameObject.Find("TimerLabel").GetComponent<TextMeshProUGUI>();
             timerLabel.text = timePassed.ToString();
         }
+
+        if (spawnTeleportFlag == null)
+        {
+            spawnTeleportFlag = GameObject.Find("TeleportFlag").GetComponent<SpawnTeleportFlag>();
+        }
     }
 
     void Update()
@@ -97,6 +103,12 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.CompareTag("WinFlag"))
         {
             WinGame();
+        }
+
+        // Detecta si colisiona con una "WinFlag"
+        if (other.gameObject.CompareTag("TeleportFlag"))
+        {
+            TeleportPlayer();
         }
 
         // Detecta si colisiona con una "Apple"
@@ -150,6 +162,15 @@ public class PlayerHealth : MonoBehaviour
             health -= smallDamage;
             health = Mathf.Max(0, health); // Asegura que la salud no sea negativa
             Destroy(other.gameObject); // Destruye la bala
+        }
+
+        // Detecta si colisiona con una "LargeEnemyBullet"
+        else if (other.gameObject.CompareTag("LargeBossBullet"))
+        {
+            // Hace la cantidad de daño de largeDamage
+            health -= largeDamage;
+            health = Mathf.Max(0, health); // Asegura que la salud no sea negativa
+            other.gameObject.GetComponent<BossBulletMovement>().DivideBullet(); // Accede al script del proyectil para dividirlo
         }
 
         // Si la salud llega a cero, puedes hacer algo como mostrar la pantalla de Game Over, etc.
@@ -251,6 +272,14 @@ public class PlayerHealth : MonoBehaviour
         GameObject.Find("TimerText").GetComponent<TextMeshProUGUI>().text = ("Tiempo: " + formatTime());
         GameObject.Find("ScoreText").GetComponent<TextMeshProUGUI>().text = ("Puntos: " + score.ToString());
         GameObject.Find("CoinsText").GetComponent<TextMeshProUGUI>().text = ("Monedas: " + coins.ToString());        
+    }
+
+    public void TeleportPlayer()
+    {
+        if (spawnTeleportFlag != null)
+        {
+            transform.position = spawnTeleportFlag.teleportPoint.position;
+        }
     }
 
     public float GetTime()

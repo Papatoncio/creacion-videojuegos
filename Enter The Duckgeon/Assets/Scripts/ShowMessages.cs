@@ -48,6 +48,19 @@ public class ShowMessages : MonoBehaviour
         ShowAdviceMessage(text);
     }
 
+    public void ShowTeleportFlagMessage()
+    {
+        string text = "Aviso: has eliminado a los enemigos suficientes, " +
+            "avanza hacia el castillo y recoge la bandera para ir a la sala del jefe.";
+        ShowAdviceMessage(text);
+    }
+
+    public void ShowBossKilledMessage()
+    {
+        string text = "Aviso: has eliminado a la paloma oscura, recoje la bandera para completar el nivel.";
+        ShowAdviceMessage(text);
+    }
+
     private void ShowAdviceMessage(string text) {
         timePassed = 0;
         gameObject.SetActive(true);

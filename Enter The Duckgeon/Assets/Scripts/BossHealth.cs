@@ -1,24 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class EnemyHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     public int health;
     public int smallDamage;
     public int largeDamage;
-    public GameObject[] objects;
     public int maxPoints;
+    public float minDistance;
 
+    private float distance;
+    private bool isPlayerSeen = false;
     private GameObject player;
     private PlayerHealth playerScript;
-    private SpawnTeleportFlag spawnTeleportFlag;
+    private ShowMessages messagesScript;
+    private Slider bossHealthBar;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerScript = player.GetComponent<PlayerHealth>();
-        spawnTeleportFlag = GameObject.Find("TeleportFlag").GetComponent<SpawnTeleportFlag>();
+        messagesScript = GameObject.Find("MessagesPanel").GetComponent<ShowMessages>();
+        bossHealthBar = GameObject.Find("BossHealthBar").GetComponent<Slider>();
+        bossHealthBar.gameObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        ToggleBossHealthBar();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -29,6 +41,7 @@ public class EnemyHealth : MonoBehaviour
             // Hace la cantidad de daño de largeDamage
             health -= largeDamage;
             health = Mathf.Max(0, health); // Asegura que la salud no sea negativa
+            UpdateBossHealthBar();
             Destroy(other.gameObject); // Destruye la bala
         }
 
@@ -38,6 +51,7 @@ public class EnemyHealth : MonoBehaviour
             // Hace la cantidad de daño de smallDamage
             health -= smallDamage;
             health = Mathf.Max(0, health); // Asegura que la salud no sea negativa
+            UpdateBossHealthBar();
             Destroy(other.gameObject); // Destruye la bala
         }
 
@@ -51,33 +65,9 @@ public class EnemyHealth : MonoBehaviour
     private void EnemyDied()
     {
         addToScore();
-        addToKillCount();
-        SpawnReward();
+        messagesScript.ShowBossKilledMessage();
+        ToggleBossHealthBar();
         Destroy(gameObject);
-    }
-
-    private void SpawnReward()
-    {
-        float[] probabilities = { 91f, 3f, 3f, 3f };
-
-        float randomValue = Random.Range(0f, 100f);
-
-        float cumulativeProbability = 0f;
-        int selectedIndex = 0;
-
-        for (int i = 0; i < probabilities.Length; i++)
-        {
-            cumulativeProbability += probabilities[i];
-            if (randomValue <= cumulativeProbability)
-            {
-                selectedIndex = i;
-                break;
-            }
-        }
-
-        GameObject reward = Instantiate(objects[selectedIndex]);
-        reward.transform.position = gameObject.transform.position;
-        reward.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
     private void addToScore()
@@ -85,8 +75,22 @@ public class EnemyHealth : MonoBehaviour
         playerScript.addToScore(maxPoints);
     }
 
-    private void addToKillCount()
+    private void UpdateBossHealthBar()
     {
-        spawnTeleportFlag.addKillToCount();
+        if (bossHealthBar != null)
+        {
+            bossHealthBar.value = health;
+        }
+    }
+
+    private void ToggleBossHealthBar()
+    {
+        distance = Vector2.Distance(transform.position, player.transform.position);
+
+        if (distance <= minDistance && !isPlayerSeen)
+        {
+            bossHealthBar.gameObject.SetActive(!bossHealthBar.IsActive());
+            isPlayerSeen = true;
+        }
     }
 }
