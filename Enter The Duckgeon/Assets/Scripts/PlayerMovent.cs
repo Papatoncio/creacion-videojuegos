@@ -17,19 +17,37 @@ public class PlayerMovent : MonoBehaviour
     private bool facingRight = true; // Estado de la dirección del personaje
     private Vector2 lookDirection;
     private float lookAngle;
+    private MovementEntriies movementEntries;
+    private GameObject virtualCursor;
+
+    private void Awake()
+    {
+        movementEntries = new MovementEntriies();
+    }
+
+    private void OnEnable()
+    {
+        movementEntries.Enable();
+    }
+
+    private void OnDisable()
+    {
+        movementEntries.Disable();
+    }
 
     void Start()
     {
         // Obtiene el componente Rigidbody2D y Animator del objeto al que está asignado el script
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        virtualCursor = GameObject.Find("VirtualCursor");
     }
 
     void Update()
     {
         // Captura la entrada del jugador en los ejes horizontal (A/D) y vertical (W/S)
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = movementEntries.Movement.Horizontal.ReadValue<float>();
+        movement.y = movementEntries.Movement.Vertical.ReadValue<float>();
 
         // Actualiza el parámetro IsMoving en el Animator
         animator.SetBool("IsMoving", movement.magnitude > 0);
@@ -80,7 +98,15 @@ public class PlayerMovent : MonoBehaviour
 
     void RotateFirePoint()
     {
-        lookDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - new Vector3(transform.position.x, transform.position.y);
+        if (Application.isMobilePlatform)
+        {
+            lookDirection = Camera.main.ScreenToWorldPoint(virtualCursor.transform.position) - new Vector3(transform.position.x, transform.position.y);
+        }
+        else
+        {
+            lookDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - new Vector3(transform.position.x, transform.position.y);
+        }
+
         lookAngle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
 
         firePoint.rotation = Quaternion.Euler(0, 0, lookAngle);
@@ -92,19 +118,36 @@ public class PlayerMovent : MonoBehaviour
 
     void ShotBullet()
     {
+        // Detectar clic del mouse
         if (Input.GetMouseButtonDown(0))
         {
             if (passedTime >= attackDelay)
             {
-                GameObject bulletClone = Instantiate(bullet);
-                PlayerBulletMovement bulletScript = bulletClone.GetComponent<PlayerBulletMovement>();
-
-                if (bulletScript != null)
-                {
-                    bulletScript.ShotBullet(firePoint, lookAngle);
-                }
-                passedTime = 0;
-            }            
+                SpawnBullet();
+            }
+        }
+        // Detectar entrada del joystick
+        else if (movementEntries.Cursor.MoveCursor.ReadValue<Vector2>() != Vector2.zero)
+        {
+            if (passedTime >= attackDelay)
+            {
+                SpawnBullet();
+            }
         }
     }
+
+    // Método separado para la lógica de instanciar y disparar la bala
+    void SpawnBullet()
+    {
+        GameObject bulletClone = Instantiate(bullet);
+        PlayerBulletMovement bulletScript = bulletClone.GetComponent<PlayerBulletMovement>();
+
+        if (bulletScript != null)
+        {
+            bulletScript.ShotBullet(firePoint, lookAngle);
+        }
+
+        passedTime = 0;
+    }
+
 }

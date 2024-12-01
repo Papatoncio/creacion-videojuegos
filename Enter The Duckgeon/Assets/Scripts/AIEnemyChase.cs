@@ -111,11 +111,20 @@ public class AIEnemyChase : MonoBehaviour
     void ShotBullet()
     {
         GameObject bulletClone = Instantiate(bullet);
-        EnemyBulletMovement bulletScript = bulletClone.GetComponent<EnemyBulletMovement>();
-
-        if (bulletScript != null)
+        if (gameObject.CompareTag("Boss"))
         {
-            bulletScript.ShotBullet(firePoint, lookAngle);
-        }
+            BossBulletMovement bulletScript = bulletClone.GetComponent<BossBulletMovement>();
+            if (bulletScript != null)
+            {
+                bulletScript.ShotBullet(firePoint, lookAngle);
+            }
+        } else
+        {
+            EnemyBulletMovement bulletScript = bulletClone.GetComponent<EnemyBulletMovement>();
+            if (bulletScript != null)
+            {
+                bulletScript.ShotBullet(firePoint, lookAngle);
+            }
+        }        
     }
 }

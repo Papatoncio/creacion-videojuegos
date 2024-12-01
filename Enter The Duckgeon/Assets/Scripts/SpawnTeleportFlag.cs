@@ -11,10 +11,15 @@ public class SpawnTeleportFlag : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
+    {        
+        messagesScript = GameObject.Find("MessagesPanel").GetComponent<ShowMessages>();
+        Invoke("DisableTeleportFlag", 5);
+    }
+
+    void DisableTeleportFlag()
     {
         gameObject.SetActive(false);
-        messagesScript = GameObject.Find("MessagesPanel").GetComponent<ShowMessages>();
-    }
+    } 
 
     // Update is called once per frame
     void Update()

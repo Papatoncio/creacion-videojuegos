@@ -18,6 +18,7 @@ public class BossHealth : MonoBehaviour
     private PlayerHealth playerScript;
     private ShowMessages messagesScript;
     private Slider bossHealthBar;
+    private GameObject winFlag;
 
     private void Start()
     {
@@ -25,6 +26,8 @@ public class BossHealth : MonoBehaviour
         playerScript = player.GetComponent<PlayerHealth>();
         messagesScript = GameObject.Find("MessagesPanel").GetComponent<ShowMessages>();
         bossHealthBar = GameObject.Find("BossHealthBar").GetComponent<Slider>();
+        winFlag = GameObject.Find("WinFlag");
+        winFlag.SetActive(false);
         bossHealthBar.gameObject.SetActive(false);
     }
 
@@ -66,7 +69,8 @@ public class BossHealth : MonoBehaviour
     {
         addToScore();
         messagesScript.ShowBossKilledMessage();
-        ToggleBossHealthBar();
+        bossHealthBar.gameObject.SetActive(false);
+        winFlag.SetActive(true);
         Destroy(gameObject);
     }
 

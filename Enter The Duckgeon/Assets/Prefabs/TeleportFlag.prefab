@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5159170735476714622}
   - component: {fileID: 1502018248379640433}
   - component: {fileID: 267901567892772570}
+  - component: {fileID: 907571811434910086}
   m_Layer: 0
   m_Name: TeleportFlag
-  m_TagString: WinFlag
+  m_TagString: TeleportFlag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1476178896, guid: 73506926164714b4285ec3beab0d7a01, type: 3}
+  m_Sprite: {fileID: -1169506176, guid: 73506926164714b4285ec3beab0d7a01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,3 +121,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.23
+--- !u!114 &907571811434910086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2722379064494552910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff509d4bdd17e744acfe6080c837e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killsNeeded: 2
+  killCount: 0
+  teleportPoint: {fileID: 0}

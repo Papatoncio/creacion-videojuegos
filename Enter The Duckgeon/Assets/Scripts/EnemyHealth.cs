@@ -87,6 +87,9 @@ public class EnemyHealth : MonoBehaviour
 
     private void addToKillCount()
     {
-        spawnTeleportFlag.addKillToCount();
+        if (spawnTeleportFlag != null)
+        {
+            spawnTeleportFlag.addKillToCount();
+        }
     }
 }

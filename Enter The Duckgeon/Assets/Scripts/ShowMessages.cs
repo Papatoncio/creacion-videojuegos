@@ -71,8 +71,6 @@ public class ShowMessages : MonoBehaviour
 
     private void CheckMessageTime()
     {
-        UnityEngine.Debug.Log(timePassed.ToString());
-
         if (timePassed >= messageTime)
         {
             gameObject.SetActive(false);
